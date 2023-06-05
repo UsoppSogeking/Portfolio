@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Expletus Sans', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header span {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.menu_nav {
+    padding-right: 1.25rem;
+}
+
+.menu-item{  
+    padding: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.menu-item.home {
+    border-bottom: 1px solid black;
+}
+
+.icon-box a{
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.icon-box .fa-linkedin {
+    color: #0e76a8;
+}
+
+.icon-box .fa-github {
+    color: #171515;
+}
+
+.icon-box .fa-whatsapp {
+    color: #128C7E ;
+}
+
+.about_me {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.about_me span {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: -2px 0px 5px rgba(0,0,0,0.61);
+}
+
+.about_me h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: -2px 0px 5px rgba(0,0,0,0.61);
+}
+
+.about_me p {
+    color: #fff;
+    text-shadow: -2px 0px 5px rgba(0,0,0,0.61);
+    
+}
+
+.Y-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+}
+
+.Y-bg span {
+    font-size: 25rem;
+    filter: brightness(50%);
+    filter: opacity(5%);
+}
+
+.icon-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+}
+
+.icon-bg .fa-gamepad {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 57%;
+    top: 73%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-rocket {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 28%;
+    top: 51%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-meteor {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 48%;
+    top: 22%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-satellite {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 36%;
+    top: 27%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-pizza-slice {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 61%;
+    top: 55%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-square-js {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 61%;
+    top: 38%;
+    color: rgb(231, 231, 36);
+}
+
+.icon-bg .fa-css3-alt {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 34%;
+    top: 38%;
+    color: blue;
+}
+
+.icon-bg .fa-wifi {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 38%;
+    top: 71%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-code {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 24%;
+    top: 64%;
+    color: brown;
+}
+
+.icon-bg .fa-html5 {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 42%;
+    top: 39%;
+    color: orange;
+}
+
+.icon-bg .fa-brain {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 52%;
+    top: 53%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-brain {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 52%;
+    top: 53%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-circle {
+    position: absolute;
+    font-size: 0.5rem;
+    left: 45%;
+    top: 22%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.icon-bg .fa-regular.fa-circle {
+    position: absolute;
+    font-size: 0.75rem;
+    left: 37%;
+    top: 42%;
+    filter: brightness(55%);
+    filter: opacity(7%);
+}
+
+.important {
+    position: absolute;
+    top: 94%;
+    left: 70%;
+    font-size: 0.75rem;
+    border-bottom: 1px solid #5c7ada;
+}

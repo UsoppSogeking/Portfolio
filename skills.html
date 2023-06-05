@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span>Y/Dev</span>
+        <nav class="menu_nav">
+            <a class="menu-item" href="index.html">Home</a>
+            <a class="menu-item" href="projetos.html">Projetos</a>
+            <a class="menu-item skills" href="skills.html">Skills</a>
+        </nav>
+        <div class="icon-box">
+            <a href="https://www.linkedin.com/in/yuri-lima-295b281a3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/UsoppSogeking" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+        <i class="fa-solid fa-earth-americas"></i>
+    </header>
+    <h1>Habilidades</h1>  
+    <div class="cards-container">
+        <div class="flip" id="card">    
+            <div class="face" id="front">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="face" id="back">
+                 <p>Lógica.<br> Dom. <br> Arrays <br> objetos </p>
+            </div>
+        </div>
+
+        <div class="flip" id="card2">    
+            <div class="face" id="front">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="face" id="back">
+                <p>Seletores. <br> posicionamento. <br> display:flex. <br> animações simples. <br> Responsividade.</p>
+            </div>
+        </div>
+
+        <div class="flip" id="card3">    
+            <div class="face" id="front">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="face" id="back">
+                <p>Estruturação. <br> semântica. <br> Tabelas. <br> Formulários</p>
+            </div>
+        </div>
+    </div> 
+        
+
+        <script>
+            const card = document.querySelector("#card");
+            const card2 = document.querySelector("#card2");
+            const card3 = document.querySelector("#card3");
+            card.addEventListener('click', (e)=> {
+                card.classList.toggle("flip");
+            });
+            card2.addEventListener('click', (e)=> {
+                card2.classList.toggle("flip");
+            });
+            card3.addEventListener('click', (e)=> {
+                card3.classList.toggle("flip");
+            });
+        </script>
+</body>
+</html>
