@@ -59,6 +59,11 @@ header span {
     color: #128C7E ;
 }
 
+.icon-box .fa-file-pdf {
+    color: red;
+    font-size: 1.20rem;
+}
+
 .about_me {
     position: absolute;
     left: 50%;
